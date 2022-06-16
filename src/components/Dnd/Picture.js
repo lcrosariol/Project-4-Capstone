@@ -2,7 +2,7 @@ import React from 'react';
 import {useDrag} from 'react-dnd';
 
 
-function Picture({id, url}) {
+function Picture({id, url, Picture}) {
         const[{isDragging}, drag] = useDrag(() => ({
             type: "image",
             item: {id: id},
@@ -11,11 +11,13 @@ function Picture({id, url}) {
             }),
         }));
     return (
-        <img 
-            ref={drag}
-            src={url} 
-            width="150px" 
-            style={{border: isDragging ? "5px solid pink" : "0px"}} />
+        <>
+            <img 
+                ref={drag}
+                src={url} 
+                width="150px" 
+                style={{border: isDragging ? "5px solid pink" : "0px"}} />
+        </>
     )
 }
 

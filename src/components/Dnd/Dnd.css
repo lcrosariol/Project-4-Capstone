@@ -2,34 +2,53 @@
 
 .VirtualGarden {
     width: 1200px;
-    height: 140px;
+    height: 200px;
     border: 2px solid black;
     background-image: url(https://i.imgur.com/Gi9emOp.jpg);
     margin-bottom: 20px;
 }
 
 .Pictures {
-    margin: 10px;
-    
+    margin: 5px;
+    margin-right: 5px;
+    width: 1200px;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 img {
     margin: 1px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgba(0, 0, 0, 0.209);
 }
 
 
 .Board {
     width: 60px;
     height: 60px;
-    border: 2px solid rgba(0, 0, 0, 0.209);
-    background-image: url(https://i.imgur.com/Gi9emOp.jpg);
+    border: 2px solid rgba(0, 0, 0, 0.467);
+    
 }
 
 .BoardGridContainer {
-    margin-top: 120px;
+    background-image: url(https://i.imgur.com/Gi9emOp.jpg);
+    margin-top: 80px;
     display: grid;
     grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
     grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+}
+.PictureListText {
+    color: rgb(240, 203, 188);
+}
+
+.PictureListContainer {
+    width: 60px;
+    height: 60px;
+    color: rgb(240, 203, 188);
+    font-size: 8pt;
+    /* border: 2px solid rgba(0, 0, 0, 0.209); */
+    margin-right: 5px;
 }
