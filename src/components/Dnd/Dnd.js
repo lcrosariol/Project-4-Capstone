@@ -32,26 +32,19 @@ function Dnd() {
 
     const addImageToBoard = (id) => {
         const pictureList = PictureList.filter((picture) => id === picture.id);
-        setBoard((board) => [...board, pictureList[0]]);
-        // setBoard([pictureList[0]]);  // for one picture that replaces itself maybe make a grid of boards...????
+        // setBoard((board) => [...board, pictureList[0]]);
+        setBoard([pictureList[0]]);  // for one picture that replaces itself maybe make a grid of boards...????
 
     };
-    return(
-        <>
-            <div className="Pictures">{PictureList.map((picture) => {
-                return <Picture url={picture.url} id={picture.id} />;
-            })}
-
-
-            </div>
-            <div className="Board" ref={drop}>
-                {board.map((picture) => {
-                    return <Picture url={picture.url} id={picture.id} />;
-                })}
-
-            </div>
-        </>
-    )
+    return (
+      <>
+        <div className="Pictures">
+          {PictureList.map((picture) => {
+            return <Picture url={picture.url} id={picture.id}  />;
+          })}
+        </div>
+      </>
+    );
 };
 
 export default Dnd;
