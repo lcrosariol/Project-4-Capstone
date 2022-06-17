@@ -4,7 +4,7 @@ const itemSchema = new Schema({
   name: { type: String, required: true },
   photo: String,
   category: { type: Schema.Types.ObjectId, ref: 'Category'},
-  price: { type: Number, required: true, default: 0 }
+  info: String,
 }, {
   timestamps: true
 });

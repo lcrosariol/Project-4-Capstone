@@ -4,22 +4,15 @@ const itemSchema = require('./itemSchema');
 
 
 
-const orderSchema = new Schema({
+const plantSchema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User' },
-    // lineItems: [lineItemSchema],
     isPaid: { type: Boolean, default: false },
 }, {
     timestamps: true,
     toJSON: { virtuals: true }
 });
 
- 
-
-orderSchema.virtual('orderId').get(function () {
-    return this.id.slice(-6).toUpperCase();
-});
-
-orderSchema.statics.getCart = async function(userId) {
+plantSchema.statics.getCart = async function(userId) {
     return this.findOneAndUpdate(
     { user: userId, isPaid: false},
     { user: userId},
@@ -28,4 +21,4 @@ orderSchema.statics.getCart = async function(userId) {
 };
 
 
-module.exports = mongoose.model('Order', orderSchema);
+module.exports = mongoose.model('Plant', plantSchema);
