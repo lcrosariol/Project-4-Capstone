@@ -1,8 +1,9 @@
 
 
 .VirtualGarden {
-    width: 1200px;
-    height: 200px;
+
+    width: 800px;
+    height: 210px;
     border: 2px solid black;
     background-image: url(https://i.imgur.com/Gi9emOp.jpg);
     margin-bottom: 20px;
@@ -11,8 +12,8 @@
 .Pictures {
     margin: 5px;
     margin-right: 5px;
-    width: 1200px;
-    height: 140px;
+    width: 800px;
+    height: 210px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -20,8 +21,8 @@
 
 img {
     margin: 1px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border: 2px solid rgba(0, 0, 0, 0.209);
 }
 
@@ -29,14 +30,15 @@ img {
 .Board {
     width: 60px;
     height: 60px;
-    border: 2px solid rgba(0, 0, 0, 0.467);
+    border: 3px solid rgba(0, 0, 0, 0.467);
     
 }
 
 .BoardGridContainer {
     background-image: url(https://i.imgur.com/Gi9emOp.jpg);
-    margin-top: 80px;
+    margin-top: 100px;
     display: grid;
+    width: 1201px;
     grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
     grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
 }
@@ -45,6 +47,9 @@ img {
 }
 
 .PictureListContainer {
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 40px;
     width: 60px;
     height: 60px;
     color: rgb(240, 203, 188);
@@ -52,3 +57,6 @@ img {
     /* border: 2px solid rgba(0, 0, 0, 0.209); */
     margin-right: 5px;
 }
+/* 
+background source code:
+https://www.myfreetextures.com/seven-free-grass-textures-or-lawn-background-images/ */
