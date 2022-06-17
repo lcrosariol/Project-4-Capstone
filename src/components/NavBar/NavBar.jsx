@@ -21,12 +21,12 @@ export default function NavBar(props) {
         <span>Welcome {props.user.name}</span>
         &nbsp; | &nbsp;
         <Link to="" onClick={handleLogOut}>Logout</Link>
-        <ReactAudioPlayer
+        {/* <ReactAudioPlayer
             src="/src/audio/269570__vonora__cuckoo-the-nightingale-duet (1).mp3"
             autoPlay
             loop="true"
             controls
-            />
+            /> */}
     </nav>);
 }
 
