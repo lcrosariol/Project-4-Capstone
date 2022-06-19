@@ -1,9 +1,8 @@
 import React from 'react';
 import Picture from './Picture';
-import {useDrop} from 'react-dnd';
+import { useDrop } from 'react-dnd';
 import { useState } from "react";
 import './Dnd.css';
-
 //the below pictures are the pictures BEFORE the item is dropped
 const PictureList = [
   {
@@ -105,22 +104,14 @@ const PictureList = [
 ];
 
 
-function Dnd() {
+function Drag() {
     const [board, setBoard] = useState([]);
-    const [{isOver}, drop] = useDrop(() => ({
-        accept: "image",
-        drop: (item) => addImageToBoard(item.id),
-        collect: (monitor) => ({
-            isDragging: !!monitor.isOver(),
-        }),
-    }));
 
     const addImageToBoard = (id) => {
-        const pictureList = PictureList.filter((picture) => id === picture.id);
+        const addPictureList = PictureList.filter((picture) => id === picture.id);
         // setBoard((board) => [...board, pictureList[0]]);  // to append as many picutes as you like to the board.  We only want one here.
-        setBoard([pictureList[0]]);  // for one picture that replaces itself 
+        setBoard([addPictureList[0]]);  // for one picture that replaces itself 
     };
-
     return (
         <>
             <div className="Pictures">
@@ -140,7 +131,7 @@ function Dnd() {
         );
 };
 
-export default Dnd;
+export default Drag;
 
 
 //Resource Used:

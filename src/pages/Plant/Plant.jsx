@@ -27,12 +27,12 @@ export default function Plant({ user, setUser }) {
     }
     getItems();
 
-    async function getCart(){
-      const cart = await plantsAPI.getCart();
-      console.log('cart get is ', cart)
-      setCart(cart);
-    }
-    getCart();
+    // async function getCart(){
+    //   const cart = await plantsAPI.getCart();
+    //   console.log('cart get is ', cart)
+    //   setCart(cart);
+    // }
+    // getCart();
   }, []); 
 
   return (
