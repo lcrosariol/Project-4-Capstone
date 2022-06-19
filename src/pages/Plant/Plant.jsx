@@ -4,13 +4,11 @@ import './Plant.css';
 import { useHistory } from 'react-router-dom';
 import VegList from '../../components/VegList/VegList';
 import CategoryList from '../../components/CategoryList/CategoryList';
-import * as plantsAPI from '../../utilities/plants-api';
 import PlantInfo from '../../components/PlantInfo/PlantInfo';
 
-export default function Plant({ user, setUser }) {
+export default function Plant() {
   const [vegItems, setVegItems] = useState([]);
   const [activeCat, setActiveCat] = useState('');
-  const [cart, setCart] = useState(null);
   const categoriesRef = useRef([]);
   const history = useHistory();
   const [activePlant, setActivePlant] = useState('');
@@ -27,12 +25,6 @@ export default function Plant({ user, setUser }) {
     }
     getItems();
 
-    // async function getCart(){
-    //   const cart = await plantsAPI.getCart();
-    //   console.log('cart get is ', cart)
-    //   setCart(cart);
-    // }
-    // getCart();
   }, []); 
 
   return (
@@ -48,7 +40,6 @@ export default function Plant({ user, setUser }) {
         vegItems={vegItems.filter(item => item.category.name === activeCat)}
         activePlant={activePlant}
         setActivePlant={setActivePlant}
-
       />
       <PlantInfo
       activePlant={activePlant}

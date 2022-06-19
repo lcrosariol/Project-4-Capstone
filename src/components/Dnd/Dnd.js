@@ -1,6 +1,6 @@
 import React from 'react';
 import Picture from './Picture';
-import { useDrop } from 'react-dnd';
+// import { useDrop } from 'react-dnd';
 import { useState } from "react";
 import './Dnd.css';
 //the below pictures are the pictures BEFORE the item is dropped
