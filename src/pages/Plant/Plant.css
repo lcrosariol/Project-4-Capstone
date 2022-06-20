@@ -3,7 +3,7 @@
   margin-top: 3vmin;
   color:black;
   height: 100%;
-  width: 200vmin;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -18,9 +18,9 @@
 .Plant aside {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 200vmin;
-  /* align-items: center; */
+  justify-content:center;
+  width: 100%;
+  align-items: center;
   /* margin: 3vmin 2vmin; */
 }
 
