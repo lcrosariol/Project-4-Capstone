@@ -12,7 +12,7 @@ const Item = require("./models/item");
     { name: "Curcubitaceae (Cucurbit)", sortOrder: 20 },
     { name: "Leguminosae (Legume)", sortOrder: 30 },
     { name: "Solanaceae (Nightshade)", sortOrder: 40 },
-    { name: "Umbelliferae(Parsley)", sortOrder: 50 },
+    { name: "Umbelliferae (Parsley)", sortOrder: 50 },
     { name: "Poaceae (Corn)", sortOrder: 60 },
     { name: "Alliums (Onion)", sortOrder: 70 },
     { name: "Amaranthaceae (Goosefoot)", sortOrder: 80 },

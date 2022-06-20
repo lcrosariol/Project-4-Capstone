@@ -36,6 +36,7 @@ export default function Plant() {
           setActiveCat={setActiveCat}
         />
       </aside>
+
       <VegList
         vegItems={vegItems.filter(item => item.category.name === activeCat)}
         activePlant={activePlant}

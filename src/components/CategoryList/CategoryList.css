@@ -1,12 +1,17 @@
 .CategoryList {
-  color: var(--text-light);
+  background-color: rgba(255, 255, 255, 0.285);
+  border: .1vmin solid var(--tan-3);
+  border-radius: 1vmin;
+  font-size: 2vw;
+  font-weight: 700;
+  color: #ee2e0f;
   list-style: none;
-  padding: 0;
+  /* padding: 0; */
   font-size: 1.7vw;
 }
 
 .CategoryList li {
-  padding: .6vmin;
+  padding: 0.5vmin .5vmin .5vmin .5vmin;
   text-align: center;
   border-radius: .5vmin;
   margin-bottom: .5vmin;
@@ -19,7 +24,22 @@
 }
 
 .CategoryList li.active {
+  /* width: 40%; */
   color: var(--text-dark);
   background-color: var(--tan-1);
   border: .1vmin solid var(--tan-3);
+}
+
+.CategoryContainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  color: var(--text-light);
+  background-color: rgba(210, 180, 140, 0.412);
+  border: 0.1vmin solid var(--tan-3);
+  border-radius: 2vmin;
+  margin: 3vmin;
+  padding: 3vmin;
+  font-size: 4vmin;
 }
