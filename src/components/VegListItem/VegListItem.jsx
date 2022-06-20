@@ -9,7 +9,7 @@ export default function VegListItem({ vegItem, setActivePlant}) {
     
   return (
     <div className="VegListItem">
-      <img alt="plant" className="photo flex-ctr-ctr" src={vegItem.photo} />
+      <img alt="plant" className="photo" src={vegItem.photo} />
       <div className="name">{vegItem.name}</div>
       <button className="setActivePlant" onClick={handleClick} >Info</button>
     </div>

@@ -5,8 +5,6 @@ import DndBoard from '../../components/Dnd/DndBoard';
 
 export default function VirtualGarden() {
 
-
-    
     return (
         <DndProvider backend={HTML5Backend}>
             <h2>Simply Drag a vegetable onto the grid below to start planning your seasonal garden!  </h2>

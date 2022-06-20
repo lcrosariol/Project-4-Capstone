@@ -1,4 +1,6 @@
 .Plant {
+  font-family: 'Zen Loop', cursive;
+  color:black;
   height: 100%;
   display: grid;
   grid-template-columns: 1.6fr 3.5fr 3fr;

@@ -6,35 +6,27 @@
   margin-bottom: 3vmin;
   padding: 2vmin;
   color: var(--text-light);
-  background-color: var(--white);
+  background-color: rgba(255, 255, 255, 0.285);
   border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;
   font-size: 4vmin;
 }
 
 .VegListItem .photo {
-  height: 8vw;
-  width: 8vw;
+  height: 10vw;
+  width: 38vw;
+  object-fit: cover;
   font-size: 4vw;
   background-color: var(--tan-1);
   border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;
 }
 
-.VegListItem .buy {
-  display: flex;
-  flex-direction: column;
-}
-
-.VegListItem .buy span {
-  font-size: 1.7vw;
-  text-align: center;
-  color: var(--text-light);
-}
 
 .VegListItem .name {
   font-size: 2vw;
+  font-weight: 700;
   text-align: center;
-  color: var(--text-light);
+  color: #ee2e0f;
 }
 
