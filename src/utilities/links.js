@@ -3,15 +3,15 @@ export const PictureList = [
   {
     id: 1,
     name: "soil/clear",
-    url: "https://i.imgur.com/fQcUMZH.png",
-    dropurl: "https://i.imgur.com/no7S3Bs.png",
+    url: "https://i.imgur.com/fQcUMZH.png", //shovel
+    dropurl: "https://i.imgur.com/no7S3Bs.png", //transparent image
   },
 
   {
     id: 2,
     name: "Radish",
-    url: "https://i.imgur.com/IAQz85G.png",
-    dropurl: "https://i.imgur.com/IhZqyOL.png",
+    url: "https://i.imgur.com/IAQz85G.png", //seeds
+    dropurl: "https://i.imgur.com/IhZqyOL.png", //radish
   },
   {
     id: 3,
