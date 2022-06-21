@@ -31,7 +31,7 @@ export default function NavBar(props) {
                 <Link to="" onClick={handleLogOut}>Logout</Link>
             </div>
             <div className="audio">
-                <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&autoplay=1&feed=%2Flau-ren5%2Fnaureproject4%2F" frameborder="0" allow="autoplay"></iframe>
+                <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&autoplay=1&feed=%2Flau-ren5%2Fnaureproject4%2F" frameborder="0" ></iframe>
             </div>
         </div>
         
