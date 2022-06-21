@@ -4,8 +4,8 @@ Garden Planner is an app that users can use to plan their vegetable garden befor
 
 ![Imgur](https://i.imgur.com/eCrKkHL.png)
 ![Imgur](https://i.imgur.com/rXTJOzG.jpg)
-![Garden Planner3]('./Project-4-Capstone(1).mp4')
-![Garden Planner4]("./Project-4-Capstone.mp4")
+![Garden Planner3]('https://www.awesomescreenshot.com/video/9562090?key=aaa697d6c1f86af49af8401cfbb509cd')
+![Garden Planner4]("https://www.awesomescreenshot.com/video/9562090?key=aaa697d6c1f86af49af8401cfbb509cd")
 
 
 ## Technologies used are Heroku, Express, Node, MongoDB, and Moongoose.
