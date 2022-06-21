@@ -13,7 +13,6 @@ nav {
     background-color: rgba(255, 255, 255, 0.285);
     border: .1vmin solid var(--tan-3);
     border-radius: 2vmin;
-    /* transition: width 2s height 2s; */
 }
 
 .navText {
@@ -80,8 +79,6 @@ a:active {
 
 iframe {
     margin-right: 3vmin;
-    /* margin-bottom: 3vmin;
-    margin-top: 3vmin; */
     height: 80%;
     width: 13%;
     display: flex;

@@ -5,7 +5,6 @@ button {
 
 .VegListItem {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
   margin: 3vmin;
@@ -62,5 +61,5 @@ button {
   background-color: var(--tan-1);
   border: .1vmin solid var(--tan-3);
 }
-/*  Make an active button for setActivePlant here....*/
+
 

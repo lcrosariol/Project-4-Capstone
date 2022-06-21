@@ -31,12 +31,6 @@ h2 {
 }
 
 .VirtualGarden {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around; */
-    /* align-items: center; */
-    /* height: 100%; */
     display: grid;
     grid-template-columns: 1.6fr 3.5fr 3fr;
     grid-template-rows: 1fr;
@@ -49,15 +43,8 @@ h2 {
     margin-top: 3vmin;
     margin-left: 3vmin;
     margin-bottom: 3vmin;
-    /* margin-bottom: 20px;
-    margin-top: 20vmin; */
+
 }
 
-/* .VirtualGarden aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3vmin 2vmin;
-} */
+
 
