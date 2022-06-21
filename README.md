@@ -52,3 +52,14 @@ https://www.youtube.com/watch?v=4bzJrEETW4w
 https://www.myfreetextures.com/seven-free-grass-textures-or-lawn-background-images/ 
 https://codepen.io/storkhuset/pen/RwKYNGJ
 
+Special thanks goes out to: 
+    
+    the City of Rancho Cordova
+    Suresh Sigera
+    Nathan Mausert
+    Rachel Perez
+    Sita Pantaballa
+    and all my wonderful classmates in my cohort. :)
+
+
+
