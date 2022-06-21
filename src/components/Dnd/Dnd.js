@@ -11,7 +11,6 @@ function Drag() {
     //we will need to edit the state of the board
     const addImageToBoard = (id) => {
         const addPictureList = PictureList.filter((picture) => id === picture.id); //filter pictures by id..
-        // setBoard((board) => [...board, pictureList[0]]);  // to append as many picutes as you like to the board.  We only want one here.
         setBoard([addPictureList[0]]);  // for one picture that replaces itself 
         //add the picture index 0 to the board, each one only has one "url", i named the other 'dropurl'
     };

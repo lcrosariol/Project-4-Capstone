@@ -6,15 +6,15 @@ const Schema = mongoose.Schema;
 
 const plantSchema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User' },
-    isPaid: { type: Boolean, default: false },
+    // isPaid: { type: Boolean, default: false },
 }, {
-    timestamps: true,
+    // timestamps: true,
     toJSON: { virtuals: true }
 });
 
 plantSchema.statics.getCart = async function(userId) {
     return this.findOneAndUpdate(
-    { user: userId, isPaid: false},
+    // { user: userId, isPaid: false},
     { user: userId},
     { upsert: true, new: true }
     );

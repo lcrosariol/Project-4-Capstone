@@ -8,10 +8,10 @@ function Picture({id, url, Picture}) {
             item: {id: id}, 
             collect: (monitor) => ({
                 isDragging: !!monitor.isDragging(),
-                //collect returns the object, and see if it is dragging...
-                //collect function defines different props and states that are accessible
-                // all the times you call the useDrag hook.  monitor can return true/false if dragging,
-                //and can do other things as well. 
+                //collect returns the object, and sees if it is dragging...
+                //collect function defines different props and states that are accessible...
+                // all the times you call the useDrag hook.  
+                //monitor can return true/false if dragging.
             }),
         }));
     return (
