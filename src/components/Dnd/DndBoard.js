@@ -23,8 +23,9 @@ function Drop() {
 
     const addImageToBoard = (id) => {
         const pictureList = PictureList.filter((picture) => id === picture.id);
+        //add the filtered picture from picturelist by id and add to the board
         // setBoard((board) => [...board, pictureList[0]]);
-        setBoard([pictureList[0]]);  // for one picture that replaces itself maybe make a grid of boards...????
+        setBoard([pictureList[0]]);  // return the only picture (index 0)
     };
     return (
         <div className="Board" ref={drop}>
