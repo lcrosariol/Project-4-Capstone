@@ -1,6 +1,6 @@
 .ladyBug {
   font-family: 'Srisakdi', cursive;
-  font-weight: 700;
+  font-weight: 900;
   top: .7vmin;
   left: 3vmin;
   height: 18vmin;
@@ -26,7 +26,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 100% 100% 150% 150%;
-  background-color:#f03a17;
+  background-color:#d80000;
+  font-weight: 900;
   color: black;
   font-size: 2.1vmin;
   border: .6vmin solid black;

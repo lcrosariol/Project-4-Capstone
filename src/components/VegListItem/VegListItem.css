@@ -1,8 +1,12 @@
-.VegListItem {
+button {
+  font-family: 'Zen Loop', cursive;
+  font-weight: 900;
+}
 
+.VegListItem {
   display: flex;
-  /* flex-wrap: wrap;
-  justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
   align-items: center;
   margin: 3vmin;
   padding: 2vmin;
@@ -27,9 +31,36 @@
 
 
 .VegListItem .name {
-  font-size: 2vw;
-  font-weight: 700;
+  font-size: 2.4vw;
+  font-weight: 900;
   text-align: center;
-  color: #ee2e0f;
+  color: #d80000;
 }
+
+.NameInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.setActivePlant {
+  font-size: 1.5vw;
+  font-weight: 900;
+  width: 80%;
+  height: 80%;
+}
+
+.setActivePlant:hover:not(.active) {
+  cursor: pointer;
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.setActivePlant.active {
+  /* width: 40%; */
+  color: var(--text-dark);
+  background-color: var(--tan-1);
+  border: .1vmin solid var(--tan-3);
+}
+/*  Make an active button for setActivePlant here....*/
 

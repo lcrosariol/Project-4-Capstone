@@ -14,7 +14,7 @@ export default function NavBar(props) {
     return (
     <nav>
         <Logo />
-        <div className="navText"><div></div>
+        <div className="navText">
             <div className="link1">
                 <Link to="/plantss">Plant a Virtual Garden</Link>
             </div>
@@ -30,10 +30,8 @@ export default function NavBar(props) {
             <div className="link3">
                 <Link to="" onClick={handleLogOut}>Logout</Link>
             </div>
-            <div className="audio">
-                <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&autoplay=1&feed=%2Flau-ren5%2Fnaureproject4%2F" frameborder="0" ></iframe>
-            </div>
         </div>
-        
-    </nav>);
+        <iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?light=1&feed=%2Flau-ren5%2Fnaureproject4%2F" frameborder="0" ></iframe>
+    </nav>
+    );
 }
