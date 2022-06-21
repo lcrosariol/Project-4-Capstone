@@ -1,4 +1,4 @@
-
+// list of urls with a picture for before and after drag/drop
 export const PictureList = [
   {
     id: 1,

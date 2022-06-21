@@ -8,7 +8,8 @@ export default function VirtualGarden() {
 
     return (
         <div className="yard">
-            <DndProvider backend={HTML5Backend}>
+            <DndProvider backend={HTML5Backend}> 
+            {/* everything inside the DndProvider has access to the DND functionality/ pass the html backend property HTML5 backend */}
                 <h2>Simply Drag a vegetable onto the grid below to start planning your seasonal garden!  </h2>
                 <div className="GardenContainer">
                     <div className="VirtualGarden">
