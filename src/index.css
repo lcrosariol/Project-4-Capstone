@@ -149,3 +149,142 @@ button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
 }
+
+/* code snippet from: https://codepen.io/storkhuset/pen/RwKYNGJ */
+
+.container {
+  position: relative;
+  background: transparent;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: fly;
+  margin-bottom: 1vmin;
+  position: relative;
+  animation-name: fly;
+  animation-duration: 10s;
+  animation-delay: 20s;
+  animation-iteration-count: 10;
+  animation-fill-mode: forwards;
+  z-index: 20;
+}
+
+.body {
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  background: yellow;
+  border-radius: 40px;
+  display: flex;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.stripe {
+  height: 100%;
+  width: 15px;
+  background: black;
+  margin-left: 15px;
+}
+
+.eyes {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 5px auto 30px;
+}
+
+.eye {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+}
+
+.pupil {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: black;
+  margin: 5px 5px auto 15px;
+}
+
+.mouth {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-bottom: 5px solid black;
+  margin: 15px 5px auto 90px;
+  transform: rotate(20deg);
+}
+
+.wings {
+  position: absolute;
+  transform: rotate(-20deg) translateX(-20px);
+  z-index: 20;
+}
+
+.wings.front {
+  margin-right: 150px;
+  margin-bottom: 200px;
+}
+.wing {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgba(255,255,255,.8);
+  border-radius: 50px 50px 0 50px;
+}
+
+.w1 {
+  animation-name: flap;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+  animation-delay: .2s;
+}
+
+
+.w2 {
+  animation-name: flap;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+  z-index: 5;
+}
+
+.gadd {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:50px solid black; 
+  left: 180px
+}
+
+@keyframes flap {
+  0%, 100% {
+    transform-origin: bottom right;
+    transform: rotate(20deg) translateY(20px) translateX(-25px);
+  }
+  
+  50% {
+    transform-origin: bottom right;
+    transform: rotate(60deg) translateY(20px) translateX(-25px);
+  }
+}
+
+/* end of code snippet from: https://codepen.io/storkhuset/pen/RwKYNGJ */
+
+/* #bee {
+
+} */
+
+@keyframes fly {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:-4000px;}
+  50%  {left:200px; top:-3000px;}
+  75%  {left:0px; top:-1000px;}
+  100% {left:0px; top:0px;}
+} 

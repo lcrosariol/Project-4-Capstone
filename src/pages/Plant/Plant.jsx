@@ -45,7 +45,6 @@ export default function Plant() {
       <PlantInfo
       activePlant={activePlant}
       />
-      
     </main>
   );
 }
