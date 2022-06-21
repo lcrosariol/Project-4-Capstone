@@ -4,7 +4,7 @@ Garden Planner is an app that users can use to plan their vegetable garden befor
 
 ![Imgur](https://i.imgur.com/eCrKkHL.png)
 ![Imgur](https://i.imgur.com/rXTJOzG.jpg)
-![Garden Planner3]("./Project-4-Capstone (1).mp4")
+![Garden Planner3]('./Project-4-Capstone(1).mp4')
 ![Garden Planner4]("./Project-4-Capstone.mp4")
 
 
