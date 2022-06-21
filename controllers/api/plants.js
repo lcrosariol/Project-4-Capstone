@@ -8,7 +8,7 @@ module.exports = {
   checkout,
 };
 
-// A cart is the unpaid plant for a user
+// A cart is the unpaid plant for a user (cart is now a list of plants)
 async function cart(req, res) {
   const cart = await Plant.getCart(req.user._id);
   res.json(cart);

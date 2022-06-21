@@ -4,29 +4,20 @@ Garden Planner is an app that users can use to plan their vegetable garden befor
 
 ![Imgur](https://i.imgur.com/eCrKkHL.png)
 ![Imgur](https://i.imgur.com/rXTJOzG.jpg)
-![Imgur](https://i.imgur.com/shAMm80.mp4)
-![Imgur](https://i.imgur.com/I9sP7O8.mp4)
 
 
 ## Technologies used are Heroku, Express, Node, MongoDB, and Moongoose.
 
 ### Dependencies installed include: 
 
-npm i bcrypt
-
-npm i react-router-dom
-
-npm i dotenv
-
-npm i moongoose
-
-npm i express morgan serve-favicon
-
-npm i esm
-
-npm i react-dnd-html5-backend
-
-npm i react-dnd
+    npm i bcrypt
+    npm i react-router-dom
+    npm i dotenv
+    npm i moongoose
+    npm i express morgan serve-favicon
+    npm i esm
+    npm i react-dnd-html5-backend
+    npm i react-dnd
 
 
 Just type the above codes into your terminal and you're good to go. 
