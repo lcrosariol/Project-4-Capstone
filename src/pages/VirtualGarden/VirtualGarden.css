@@ -1,16 +1,63 @@
-.VirtualGarden {
+h2 {
+    font-size: 5vmin;
+    font-weight: 900;
+    color: #d80000;
+    background-color: rgb(255, 228, 196, 0.6);
+    border: .1vmin solid var(--tan-3);
+    height: 8vmin;
+    width: 90%;
+    border-radius: 2vmin;
+    text-align: center;
+    padding: 1vmin;
+    margin-left: 3vmin;;
+
+}
+
+.yard {
+    background-color: rgba(77, 61, 5, 0.5);
+    border-radius: 2vmin;
+    margin-top: 3vmin;
+    margin-left: 3vmin;
+    z-index: -1;
+    width: 99%;
+    padding: 3vmin;
+}
+.GardenContainer {
     height: 100%;
+    width: 100%;
+    background-color: rgba(210, 180, 140, 0.412);
+    border: 0.1vmin solid var(--tan-3);
+    border-radius: 2vmin;
+}
+
+.VirtualGarden {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around; */
+    /* align-items: center; */
+    /* height: 100%; */
     display: grid;
     grid-template-columns: 1.6fr 3.5fr 3fr;
     grid-template-rows: 1fr;
     background-color: var(--white);
     border-radius: 2vmin;
+    width: 26vmin;
+    height: 170vmin; 
+    border: 2px solid black;
+    background-image: url(https://i.imgur.com/Gi9emOp.jpg);
+    margin-top: 3vmin;
+    margin-left: 3vmin;
+    margin-bottom: 3vmin;
+    /* margin-bottom: 20px;
+    margin-top: 20vmin; */
 }
 
-.VirtualGarden aside {
+/* .VirtualGarden aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 3vmin 2vmin;
-}
+} */
+

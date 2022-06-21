@@ -10,14 +10,12 @@ function Picture({id, url, Picture}) {
             }),
         }));
     return (
-        <>
             <img 
                 ref={drag}
                 src={url} 
                 width="150px" 
                 alt="url"
                 style={{border: isDragging ? "5px solid pink" : "0px"}} />
-        </>
     )
 }
 

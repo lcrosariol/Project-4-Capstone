@@ -19,13 +19,15 @@ function Drag() {
             <div className="Pictures">
             {PictureList.map((picture) => {
                 return (
-                    <div className="PictureListContainer">
-                        <Picture
-                        url={picture.url}
-                        id={picture.id}
-                        name={picture.name}
-                        />{picture.name}
-                    </div>
+                    
+                        <div className="PictureListContainer">
+                            <Picture
+                            url={picture.url}
+                            id={picture.id}
+                            name={picture.name}
+                            />{picture.name}
+                        </div>
+                    
                 );
             })}
             </div>

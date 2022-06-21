@@ -21,13 +21,13 @@ function Drop() {
         setBoard([pictureList[0]]);  // for one picture that replaces itself maybe make a grid of boards...????
     };
     return (
-      <>
+      // <div className="yard">
         <div className="Board" ref={drop}>
             {board.map((picture) => {
             return <Picture url={picture.dropurl} id={picture.id} />;
             })}
         </div>
-      </>
+      // </div>
     );
 }
 
