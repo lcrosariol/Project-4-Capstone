@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --white: #FFFFFF;
   --tan-1: #FBF9F6;
   --tan-2: #E7E2DD;
@@ -7,7 +7,7 @@
   --orange: #F67F00;
   --text-light: #968c84;
   --text-dark: #615954;
-}
+} */
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -77,11 +77,15 @@ code {
 }
 
 .form-container {
-  padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
-  border-radius: 1vmin;
+    padding: 3vmin;
+    background-color: hsla(0,0%,100%,.285);
+    border: 0.1vmin solid var(--tan-3);
+    border-radius: 1vmin;
+    font-size: 2vw;
+    font-weight: 900;
+    color: #d80000;
 }
+
 
 p.error-message {
   color: var(--orange);
