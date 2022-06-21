@@ -1,26 +1,23 @@
 const Plant = require('../../models/plant');
 
-
 module.exports = {
-  cart,
-  addToCart,
+  list,
+  addToList,
 };
 
-// A cart is the unpaid plant for a user (cart is now a list of plants)
-// i changed the cart to a list when i decided to make a planning app instead 
-// of a virtual farmstand and forgot to refactor the wording. 
-async function cart(req, res) {
-  const cart = await Plant.getCart(req.user._id);
+// A list is the unpaid plant for a user (list is now a list of plants)
+async function list(req, res) {
+  const list = await Plant.getList(req.user._id);
   // The promise resolves to the document, which we already have
-  // in the cart variable, so no need to create another variable...
-  res.json(cart);
+  // in the list variable, so no need to create another variable...
+  res.json(list);
 }
 
-// Add an item to the cart(adds plant to list)
-async function addToCart(req, res) {
-  const cart = await Plant.getCart(req.user._id);
+// Add an item to the list(adds plant to list)
+async function addToList(req, res) {
+  const list = await Plant.getList(req.user._id);
   // The promise resolves to the document, which we already have
-  // in the cart variable, so no need to create another variable...
-  await cart.addItemToCart(req.params.id);
-  res.json(cart);
+  // in the list variable, so no need to create another variable...
+  await list.addItemToList(req.params.id);
+  res.json(list);
 }

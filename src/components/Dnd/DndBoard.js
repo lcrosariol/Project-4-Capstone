@@ -4,7 +4,6 @@ import { useDrop } from "react-dnd";
 import { useState } from "react";
 import { PictureList } from "../../utilities/links";
 
-
 function Drop() {
     const [board, setBoard] = useState([]);
     const [{ isOver }, drop] = useDrop(() => ({
