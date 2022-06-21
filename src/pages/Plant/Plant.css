@@ -10,10 +10,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* background-image: url(https://i.imgur.com/AX969vr.png); */
   background-color: rgba(77, 61, 5, 0.5);
   border-radius: 2vmin;
-  /* margin: 4vmin 0vmin 0vmin 0vmin; */
 }
 
 .Plant aside {

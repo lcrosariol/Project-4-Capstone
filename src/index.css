@@ -166,7 +166,7 @@ button[type="submit"] {
   animation-name: fly;
   animation-duration: 10s;
   animation-delay: 20s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 3;
   animation-fill-mode: forwards;
   z-index: 20;
 }
