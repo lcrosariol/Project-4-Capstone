@@ -1,12 +1,12 @@
 .VegListItem {
 
   display: flex;
-  /* justify-content: space-between; */
+  /* flex-wrap: wrap;
+  justify-content: space-between; */
   align-items: center;
   margin: 3vmin;
   padding: 2vmin;
   color: var(--text-light);
-
   background-color: rgba(255, 255, 255, 0.285);
   border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;

@@ -11,6 +11,12 @@
   /* width: 100% */
 }
 
+ul {
+  width: 92%;
+  height: 90%;
+  margin: 3vmin;
+  padding: 3vmin;
+}
 .CategoryList li {
   padding: 0.5vmin .5vmin .5vmin .5vmin;
   text-align: center;
@@ -34,6 +40,7 @@
 
 .CategoryContainer {
   width: 93%;
+  height: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,10 +1,8 @@
 import {Link} from "react-router-dom";
 import * as userService from '../../utilities/users-service';
-// import ReactAudioPlayer from 'react-audio-player';
 import "./NavBar.css";
 import Logo from "../Logo/Logo";
-import AudioPlayer from 'react-h5-audio-player';
-import "react-h5-audio-player/lib/styles.css";
+
 
 
 export default function NavBar(props) {
@@ -32,6 +30,10 @@ export default function NavBar(props) {
             <div className="link3">
                 <Link to="" onClick={handleLogOut}>Logout</Link>
             </div>
+            <div className="audio">
+                <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&hide_artwork=1&autoplay=1&feed=%2Flau-ren5%2Fnaureproject4%2F" frameborder="0" allow="autoplay"></iframe>
+            </div>
         </div>
+        
     </nav>);
 }
