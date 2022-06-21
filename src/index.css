@@ -161,7 +161,7 @@ button[type="submit"] {
   align-items: center;
   justify-content: center;
   animation-name: fly;
-  margin-bottom: 1vmin;
+  margin-top: 130vmin;
   position: relative;
   animation-name: fly;
   animation-duration: 10s;
@@ -280,8 +280,8 @@ button[type="submit"] {
 
 @keyframes fly {
   0%   {left:0px; top:0px;}
-  25%  {left:200px; top:-4000px;}
-  50%  {left:200px; top:-3000px;}
-  75%  {left:0px; top:-1000px;}
+  25%  {left:400px; top:-2000px;}
+  50%  {left:800px; top:-1500px;}
+  75%  {left:200px; top:-1000px;}
   100% {left:0px; top:0px;}
 } 
